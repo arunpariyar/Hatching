@@ -1,0 +1,14 @@
+{
+  "name": "recipe-page",
+  "version": "1.0.0",
+  "description": "simple recipe-page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css --watch"
+  },
+  "author": "Arun Pariyar",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.2"
+  }
+}
