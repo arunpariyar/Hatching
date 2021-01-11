@@ -36,7 +36,7 @@ body {
   display: flex;
   align-items: flex-start;
   width: 60%;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .cusine__intro--svg {
   margin-top: 3px;
@@ -110,11 +110,26 @@ body {
 
 .overview__container {
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: max-content max-content;
   grid-row-gap: 2rem;
-  padding: 5rem;
+  grid-column-gap: 1rem;
+  padding: 4rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  line-height: 1.7rem;
+  align-items: center;
+  justify-items: center;
+}
+.overview__container--topic {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.overview__container--info {
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .u-mr-md {
@@ -132,6 +147,10 @@ body {
 .u-italic {
   font-style: italic;
   font-weight: 400;
+}
+
+.f-orange {
+  color: #f2994a;
 }
 
 .source {
