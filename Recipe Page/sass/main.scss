@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@100,200,400,500;0,700;1,500&family=Playfair+Display:ital,wght@200,400;0,700;1,400&display=swap");
+//Responsive Breakpoints
+$bp-largest: 75em;
+$bp-large: 62.5em;
+$bp-medium: 50em;
+$bp-small: 37.5em;
 
 // css reset
 *,
@@ -12,6 +17,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; //1em = 10px
+  @media only screen and (max-width: $bp-small) {
+    font-weight: 50%;
+  }
 }
 
 body {
@@ -24,6 +32,9 @@ body {
 
 .content {
   margin: 2% 15%;
+  @media only screen and (max-width: $bp-medium) {
+    margin: 2.5% 2.5%;
+  }
 }
 
 .cusine {
@@ -33,11 +44,25 @@ body {
   font-weight: 700;
   line-height: 6.4rem;
   margin-bottom: 1.1rem;
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 4rem;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 3.5rem;
+  }
+
   &__intro {
     display: flex;
     align-items: flex-start;
     width: 60%;
     margin-bottom: 3rem;
+    @media only screen and (max-width: $bp-medium) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 500px) {
+      width: 100%;
+    }
+
     &--svg {
       margin-top: 3px;
       margin-right: 1rem;
@@ -59,7 +84,13 @@ body {
 
 .receipe {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: block;
+  }
+
   &__ingredients {
     margin-bottom: 3rem;
     &--title {
@@ -125,6 +156,24 @@ body {
   line-height: 1.7rem;
   align-items: center;
   justify-items: center;
+  margin-bottom: 3rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    justify-content: center;
+    grid-template-columns: repeat(8, max-content);
+    // padding: 3rem 1rem;
+  }
+  @media only screen and (max-width: $bp-small) {
+    display: grid;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 500px) {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: none;
+  }
+
   &--topic {
     font-family: Montserrat;
     font-size: 1rem;

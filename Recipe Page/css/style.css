@@ -11,6 +11,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-weight: 50%;
+  }
+}
 
 body {
   background-color: #fff;
@@ -23,6 +28,11 @@ body {
 .content {
   margin: 2% 15%;
 }
+@media only screen and (max-width: 50em) {
+  .content {
+    margin: 2.5% 2.5%;
+  }
+}
 
 .cusine {
   font-family: Playfair Display;
@@ -32,11 +42,31 @@ body {
   line-height: 6.4rem;
   margin-bottom: 1.1rem;
 }
+@media only screen and (max-width: 50em) {
+  .cusine {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cusine {
+    font-size: 3.5rem;
+  }
+}
 .cusine__intro {
   display: flex;
   align-items: flex-start;
   width: 60%;
   margin-bottom: 3rem;
+}
+@media only screen and (max-width: 50em) {
+  .cusine__intro {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cusine__intro {
+    width: 100%;
+  }
 }
 .cusine__intro--svg {
   margin-top: 3px;
@@ -57,7 +87,13 @@ body {
 
 .receipe {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
+}
+@media only screen and (max-width: 50em) {
+  .receipe {
+    display: block;
+  }
 }
 .receipe__ingredients {
   margin-bottom: 3rem;
@@ -119,6 +155,26 @@ body {
   line-height: 1.7rem;
   align-items: center;
   justify-items: center;
+  margin-bottom: 3rem;
+}
+@media only screen and (max-width: 50em) {
+  .overview__container {
+    justify-content: center;
+    grid-template-columns: repeat(8, max-content);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .overview__container {
+    display: grid;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .overview__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: none;
+  }
 }
 .overview__container--topic {
   font-family: Montserrat;
