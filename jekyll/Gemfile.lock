@@ -63,6 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-watch
   webrick (~> 1.7)
 
 BUNDLED WITH
