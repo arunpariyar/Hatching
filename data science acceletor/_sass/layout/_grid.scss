@@ -1,0 +1,6 @@
+.content-grid {
+  display: grid;
+  grid-template-columns:
+    [fullbleed-start] 1fr [center-start] repeat(6, [col-start] 1fr [col-end])
+    [center-end] 1fr [fullbleed-end];
+}

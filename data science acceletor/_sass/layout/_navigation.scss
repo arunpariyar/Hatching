@@ -1,0 +1,30 @@
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  padding: 2rem 5rem;
+  background-color: #fff;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.71);
+  margin-bottom: 5rem;
+
+  &__logo {
+    font-family: var(--text-display);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    &--bold {
+      font-weight: 700;
+      color: var(--primary);
+    }
+  }
+
+  &__links {
+    align-self: center;
+
+    &--link {
+      padding: 0.3rem;
+      margin: 2.7rem;
+    }
+  }
+}
