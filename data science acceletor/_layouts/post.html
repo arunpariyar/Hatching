@@ -1,15 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css" />
+    {% feed_meta %} {% seo %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    <div class="content-grid">
+      <div class="homepage-content">{{ content }}</div>
+    </div>
+    <!-- <h1>{{ page.title }}</h1>
 
-div
-<h1>{{ page.title }}</h1>
-
-<p>
-  {{ page.date | date_to_string }} {% assign author = site.authors | where:
-  'short_name', page.author | first %} {% if author %} -
-  <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
-
-{{ content }}
+    <p>
+      {{ page.date | date_to_string }} {% assign author = site.authors | where:
+      'short_name', page.author | first %} {% if author %} -
+      <a href="{{ author.url }}">{{ author.name }}</a>
+      {% endif %}
+    </p> -->
+    {% include footer.html %}
+  </body>
+</html>

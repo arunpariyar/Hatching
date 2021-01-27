@@ -1,21 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-18T16:25:10+01:00</updated><id>/feed.xml</id><entry><title type="html">Kiwifruit</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="Kiwifruit" /><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-27T16:20:36+01:00</updated><id>/feed.xml</id><entry><title type="html">How is this track working</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="How is this track working" /><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
 berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
 
 &lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
 hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
 diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Apples</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+02:00</published><updated>2018-08-21T00:00:00+02:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Welcome</title><link href="/2018/08/22/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><id>/2018/08/22/welcome</id><content type="html" xml:base="/2018/08/22/welcome.html">&lt;h1 id=&quot;welcome-to-the-accelerator&quot;&gt;Welcome to the Accelerator&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Hey Techies,&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We are happy that you are interested and joined our between-semester program. Now that you have finished your Digital Shaper projects, you have realised that developing data science solutions takes longer then expected and that you would like to become faster and improve your knowledge in data science. This is what the Data Science Accelerator is for, to accelerate your data science skills! The Data Science Accelerator will give you a deeper understanding of Python &amp;amp; Data Science, as well as a sneak peek for your next steps as data scientist: Artifical Intelligence.&lt;/p&gt;
+
+&lt;p&gt;Based on these, the track is seperated into three parts:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Python Deep-Dive&lt;/p&gt;
+
+    &lt;p&gt;Data Science is like every craft: The better you know your tools, the faster and better are your results. The main tool you will be using for data science will be Python and its various libraries, so learning more about them will accelerate your data science skills, by quite a bit! This section won`t be an introduction into Python, instead we will build on your foundation and introduce more complex &amp;amp; powerful topics.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Science Deep-Dive&lt;/p&gt;
+
+    &lt;p&gt;What is the second best way of getting faster and better in data science, after learning more about Python? The answer is &lt;em&gt;more&lt;/em&gt; data science. Just as in the previous section, we will build on your existing skill set and dive deeper into data science. While a big part of data science is about coding and models, we will also introduce more soft topics of data science, such as how to define a data science problem and how to communicate with your non-ds team mates.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Artifical Intelligence Sneak Peek&lt;/p&gt;
+
+    &lt;p&gt;While the differences are not always clear, and many people (especially the ones who don`t know anything about tech) will use them interchangable, AI is nothing else then a subgroup of data science. You feed a model some data, and it will be able to predict some output. To give you a better insight, that it is not magic we will give you a sneak peak into this whole field.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Before you start learning the real material, please go through our introduction docuemnts to get you into the right mindset, to see what is the difference between the digital shaper program and the accelerator and how to set up your working environment.&lt;/p&gt;
+
+&lt;p&gt;Hope you have a great time&lt;/p&gt;
+
+&lt;p&gt;Merlin &amp;amp; Max!&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the Accelerator</summary></entry><entry><title type="html">Our expectations about you</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Our expectations about you" /><published>2018-08-21T00:00:00+02:00</published><updated>2018-08-21T00:00:00+02:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
 
 &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
 the genus Malus. The tree originated in Central Asia, where its wild ancestor,
 Malus sieversii, is still found today. Apples have been grown for thousands of
 years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">Bananas</title><link href="/2018/08/20/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>/2018/08/20/bananas</id><content type="html" xml:base="/2018/08/20/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
+colonists.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">What are we teaching</title><link href="/2018/08/20/bananas.html" rel="alternate" type="text/html" title="What are we teaching" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>/2018/08/20/bananas</id><content type="html" xml:base="/2018/08/20/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
 
 &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
 distinguishing them from dessert bananas. The fruit is variable in size, color,
 and firmness, but is usually elongated and curved, with soft flesh rich in
 starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry></feed>
+when ripe.&lt;/p&gt;</content><author><name>Max</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry></feed>

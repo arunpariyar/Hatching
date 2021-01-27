@@ -3,19 +3,22 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
  */
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+// *,
+// *::after,
+// *::before {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: inherit;
+// }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  line-height: 1.6;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-size: 1.6rem;
   font-family: var(--text-default);
   background-color: var(--white);
@@ -27,8 +30,7 @@ a:visited {
   color: rgba(0, 0, 0, 0.7);
 }
 a:hover {
-  background-color: var(--primary);
-  color: var(--white);
+  color: var(--primary);
   text-decoration: underline;
 }
 a:active {
