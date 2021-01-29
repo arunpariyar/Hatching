@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-content: center;
 
-  padding: 2rem 5rem;
+  padding: 2rem 10rem;
   background-color: #fff;
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.71);
 
@@ -21,12 +21,14 @@
 
   &__links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: minmax(2rem, 1fr);
     align-items: center;
     justify-items: center;
     &--link {
+      font-size: 1.65rem;
       margin: 0 1rem;
+      font-weight: 500;
     }
   }
 }

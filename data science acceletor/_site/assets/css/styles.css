@@ -1,31 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Open+Sans:wght@400;500;700&display=swap");
-:root { --text-default: "Montserrat", sans-serif; --text-display: "Open Sans", sans-serif; --white: #fff; --light: #f8f9fa; --primary: #fb1d5c; }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Josefin+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap");
+:root { --text-default: "Montserrat", sans-serif; --text-display: "Josefin Sans", sans-serif; --text-code: "Source Code Pro", monospace; --white: #fff; --light: #f8f9fa; --primary: #fb1d5c; }
 
 /*  font-family: 'Montserrat', sans-serif; font-family: 'Roboto Slab', serif; */
-html { box-sizing: border-box; font-size: 62.5%; line-height: 1.6; }
+html { box-sizing: border-box; line-height: 1.8; font-size: 62.5%; }
+
+@media only screen and (max-width: 37.5em) { html { font-size: 50%; } }
 
 body { margin: 0; padding: 0; font-size: 1.6rem; font-family: var(--text-default); background-color: var(--white); }
 
-a:link, a:visited { text-decoration: none; color: rgba(0, 0, 0, 0.7); }
+a:link, a:visited { text-decoration: none; color: rgba(0, 0, 0, 0.8); }
 
-a:hover { color: var(--primary); text-decoration: underline; }
+a:hover { color: var(--primary); }
 
-a:active { text-decoration: none; color: rgba(0, 0, 0, 0.7); }
+a:active { text-decoration: none; color: rgba(0, 0, 0, 0.8); }
 
-.navi { display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-content: center; padding: 2rem 5rem; background-color: #fff; box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.71); }
+h1, h2, h3, h4, h5, h6 { font-family: var(--text-display); text-transform: capitalize; }
+
+h1:after { background: none repeat scroll 0 0 var(--primary); bottom: -5px; right: -1px; content: " "; display: block; height: 0.4rem; position: relative; width: 5rem; }
+
+img { max-width: 100%; }
+
+pre { background-color: var(--primary); padding: 1rem; border-radius: 1.5rem; }
+
+code { font-family: var(--text-code); color: var(--white); }
+
+blockquote { color: #7d7d7d; font-style: italic; border-left: 2px solid var(--primary); padding-left: 2rem; }
+
+.navi { display: grid; grid-template-columns: repeat(2, 1fr); justify-content: space-between; align-content: center; padding: 2rem 10rem; background-color: #fff; box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.71); }
 
 .navi__logo { font-family: var(--text-display); text-transform: uppercase; font-size: 2rem; font-weight: 400; }
 
 .navi__logo--bold { font-weight: 700; color: var(--primary); }
 
-.navi__links { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: minmax(2rem, 1fr); align-items: center; justify-items: center; }
+.navi__links { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: minmax(2rem, 1fr); align-items: center; justify-items: center; }
 
-.navi__links--link { margin: 0 1rem; }
+.navi__links--link { font-size: 1.65rem; margin: 0 1rem; font-weight: 500; }
 
-.content-grid { min-height: 80vh; margin: 4rem 0; display: grid; grid-template-columns: [fullbleed-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] 1fr [col-end]) [center-end] minmax(6rem, 1fr) [fullbleed-end]; }
+.content-grid { min-height: 80vh; margin: 4rem 0; display: grid; grid-template-columns: [fullbleed-start] minmax(1rem, 1fr) [normal-start] minmax(1rem, 1fr) [post-start] repeat(4, [col-start] 1fr [col-end]) [post-end] minmax(1rem, 1fr) [normal-end] minmax(1rem, 1fr) [fullbleed-end]; }
 
-.footer { width: 100%; height: 5rem; background-color: var(--primary); }
+@media only screen and (max-width: 37.5em) { .content-grid { font-weight: 50%; } }
 
-.homepage-content { grid-column: center-start / center-end; }
+@media only screen and (max-width: 37.5em) { .content-grid { font-weight: 50%; } }
+
+.footer { width: 100%; padding: 2rem 0rem; background-color: var(--primary); }
+
+.footer__content { text-align: center; }
+
+.footer__content--title { color: #fff; }
+
+.homepage-content { grid-column: normal-start / normal-end; text-align: justify; text-justify: inter-word; }
+
+.post-content { grid-column: post-start / post-end; text-align: justify; text-justify: inter-word; }
+
+@media only screen and (max-width: 62.5em) { .post-content { grid-column: normal-start / normal-end; } }
+
+.bloglist__title { font-family: var(--text-display); font-size: 1.8rem; font-weight: 400; line-height: 2; }
+
+.btn-nav:hover { border-bottom: 2px solid var(--primary); }
 
 /*# sourceMappingURL=styles.css.map */

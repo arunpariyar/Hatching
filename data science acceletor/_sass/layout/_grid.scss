@@ -3,9 +3,17 @@
   margin: 4rem 0;
   display: grid;
   grid-template-columns:
-    [fullbleed-start] minmax(6rem, 1fr) [center-start] repeat(
-      6,
+    [fullbleed-start] minmax(1rem, 1fr) [normal-start] minmax(1rem, 1fr) [ post-start] repeat(
+      4,
       [col-start] 1fr [col-end]
     )
-    [center-end] minmax(6rem, 1fr) [fullbleed-end];
+    [ post-end ] minmax(1rem, 1fr) [normal-end] minmax(1rem, 1fr) [fullbleed-end];
+
+  @media only screen and (max-width: $bp-small) {
+    font-weight: 50%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-weight: 50%;
+  }
 }

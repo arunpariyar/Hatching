@@ -1,17 +1,174 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-27T16:20:36+01:00</updated><id>/feed.xml</id><entry><title type="html">How is this track working</title><link href="/2018/08/22/kiwifruit.html" rel="alternate" type="text/html" title="How is this track working" /><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><id>/2018/08/22/kiwifruit</id><content type="html" xml:base="/2018/08/22/kiwifruit.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-29T17:11:56+01:00</updated><id>/feed.xml</id><entry><title type="html">Test</title><link href="/2018/09/19/Test.html" rel="alternate" type="text/html" title="Test" /><published>2018-09-19T00:00:00+02:00</published><updated>2018-09-19T00:00:00+02:00</updated><id>/2018/09/19/Test</id><content type="html" xml:base="/2018/09/19/Test.html">&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;.&lt;/p&gt;
 
-&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
-hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
-diameter). It has a fibrous, dull greenish-brown skin and bright green or
-golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
-texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Welcome</title><link href="/2018/08/22/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><id>/2018/08/22/welcome</id><content type="html" xml:base="/2018/08/22/welcome.html">&lt;h1 id=&quot;welcome-to-the-accelerator&quot;&gt;Welcome to the Accelerator&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;./another-page.html&quot;&gt;Link to another page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs.&lt;/p&gt;
+
+&lt;p&gt;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&lt;/p&gt;
+
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.&lt;/p&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote following a header.&lt;/p&gt;
+
+  &lt;p&gt;When something is important enough, you do it even if the odds are not in your favor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Javascript code with syntax highlighting.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;dateformat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i18n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;./lang/&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Ruby code with syntax highlighting&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;GitHubPages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Dependencies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add_dependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;= &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an unordered list following a header.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+  &lt;li&gt;This is an ordered list following a header.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;header-6&quot;&gt;Header 6&lt;/h6&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;head two&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;three&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good swedish fish&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;out of stock&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good and plenty&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;nice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oreos&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;hmm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ok&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;good &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zoute&lt;/code&gt; drop&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;yumm&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;theres-a-horizontal-rule-below-this&quot;&gt;There’s a horizontal rule below this.&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;here-is-an-unordered-list&quot;&gt;Here is an unordered list:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item foo&lt;/li&gt;
+  &lt;li&gt;Item bar&lt;/li&gt;
+  &lt;li&gt;Item baz&lt;/li&gt;
+  &lt;li&gt;Item zip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;and-an-ordered-list&quot;&gt;And an ordered list:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+  &lt;li&gt;Item three&lt;/li&gt;
+  &lt;li&gt;Item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;and-a-nested-list&quot;&gt;And a nested list:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item
+        &lt;ul&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+          &lt;li&gt;level 3 item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item
+    &lt;ul&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+      &lt;li&gt;level 2 item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;level 1 item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;small-image&quot;&gt;Small image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.githubassets.com/images/icons/emoji/octocat.png&quot; alt=&quot;Octocat&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;large-image&quot;&gt;Large image&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://guides.github.com/activities/hello-world/branching.png&quot; alt=&quot;Branching&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;definition-lists-can-be-used-with-html-syntax&quot;&gt;Definition lists can be used with HTML syntax.&lt;/h3&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Name&lt;/dt&gt;
+&lt;dd&gt;Godzilla&lt;/dd&gt;
+&lt;dt&gt;Born&lt;/dt&gt;
+&lt;dd&gt;1952&lt;/dd&gt;
+&lt;dt&gt;Birthplace&lt;/dt&gt;
+&lt;dd&gt;Japan&lt;/dd&gt;
+&lt;dt&gt;Color&lt;/dt&gt;
+&lt;dd&gt;Green&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The final element.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;this is for quotes&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Text can be bold, italic, or strikethrough.</summary></entry><entry><title type="html">Welcome</title><link href="/2018/08/19/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-08-19T00:00:00+02:00</published><updated>2018-08-19T00:00:00+02:00</updated><id>/2018/08/19/welcome</id><content type="html" xml:base="/2018/08/19/welcome.html">&lt;h1 id=&quot;welcome-to-the-accelerator&quot;&gt;Welcome to the Accelerator&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Hey Techies,&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We are happy that you are interested and joined our between-semester program. Now that you have finished your Digital Shaper projects, you have realised that developing data science solutions takes longer then expected and that you would like to become faster and improve your knowledge in data science. This is what the Data Science Accelerator is for, to accelerate your data science skills! The Data Science Accelerator will give you a deeper understanding of Python &amp;amp; Data Science, as well as a sneak peek for your next steps as data scientist: Artifical Intelligence.&lt;/p&gt;
 
 &lt;p&gt;Based on these, the track is seperated into three parts:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Python Deep-Dive&lt;/p&gt;
@@ -34,17 +191,100 @@ texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>ted</n
 
 &lt;p&gt;Hope you have a great time&lt;/p&gt;
 
-&lt;p&gt;Merlin &amp;amp; Max!&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the Accelerator</summary></entry><entry><title type="html">Our expectations about you</title><link href="/2018/08/21/apples.html" rel="alternate" type="text/html" title="Our expectations about you" /><published>2018-08-21T00:00:00+02:00</published><updated>2018-08-21T00:00:00+02:00</updated><id>/2018/08/21/apples</id><content type="html" xml:base="/2018/08/21/apples.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+&lt;p&gt;Merlin &amp;amp; Max!&lt;/p&gt;</content><author><name></name></author><summary type="html">Welcome to the Accelerator</summary></entry><entry><title type="html">What we are teaching</title><link href="/2018/08/18/what-we-are-teaching.html" rel="alternate" type="text/html" title="What we are teaching" /><published>2018-08-18T00:00:00+02:00</published><updated>2018-08-18T00:00:00+02:00</updated><id>/2018/08/18/what%20we%20are%20teaching</id><content type="html" xml:base="/2018/08/18/what-we-are-teaching.html">&lt;h1 id=&quot;what-are-we-teaching&quot;&gt;What are we teaching&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;How does it relate to project and whatever&lt;/li&gt;
+  &lt;li&gt;Often questions are open answer&lt;/li&gt;
+  &lt;li&gt;For many tasks we don`t teach the solution. You need to google it for yourself.&lt;/li&gt;
+  &lt;li&gt;What does it mean to be a Digital Shaper&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">What are we teaching How does it relate to project and whatever Often questions are open answer For many tasks we don`t teach the solution. You need to google it for yourself. What does it mean to be a Digital Shaper</summary></entry><entry><title type="html">How is this track working</title><link href="/2018/08/17/how-is-this-track-working.html" rel="alternate" type="text/html" title="How is this track working" /><published>2018-08-17T00:00:00+02:00</published><updated>2018-08-17T00:00:00+02:00</updated><id>/2018/08/17/how%20is%20this%20track%20working</id><content type="html" xml:base="/2018/08/17/how-is-this-track-working.html">&lt;h1 id=&quot;how-is-this-track-working&quot;&gt;How is this track working?&lt;/h1&gt;
+&lt;p&gt;This accelerator operates a bit different to your previous data science track. While the Digital Shaper Program combines learning on your own, a local community &amp;amp; practice in a group project; the accelerator only focuses on the community and practice, by introducing new concepts to combine them even more. This page explains the differences between the two programs, as well as how the learning and your experience will differ.&lt;/p&gt;
 
-&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">What are we teaching</title><link href="/2018/08/20/bananas.html" rel="alternate" type="text/html" title="What are we teaching" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>/2018/08/20/bananas</id><content type="html" xml:base="/2018/08/20/bananas.html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.&lt;/p&gt;
+&lt;h2 id=&quot;previous-knowledge&quot;&gt;Previous Knowledge&lt;/h2&gt;
+&lt;p&gt;While the Data Science Track does not require any knowledge, the accelerator builds on top of that knowledge. So if you have not finished your data science track 100% yet, please finish that one before.&lt;/p&gt;
 
-&lt;p&gt;In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.&lt;/p&gt;</content><author><name>Max</name></author><summary type="html">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.</summary></entry></feed>
+&lt;p&gt;Further, we expect some previous knowledge with Git, GitHub &amp;amp; the Terminal. We think you hopefully used all of this before in your group project, but if not here are our materials. &lt;strong&gt;Please take your time, and learn these things, you will need it later in the track&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;terminal&quot;&gt;Terminal&lt;/h3&gt;
+&lt;p&gt;TODO ARUN MATERIAL&lt;/p&gt;
+&lt;h3 id=&quot;gitgithub&quot;&gt;GIT/GITHUB&lt;/h3&gt;
+&lt;p&gt;TODO MAX MATERIAL&lt;/p&gt;
+
+&lt;h2 id=&quot;being-a-digital-shaper&quot;&gt;Being a Digital Shaper&lt;/h2&gt;
+&lt;p&gt;For us being a Digital Shaper means to use all available digital tools to their fullest. To give you an example: Most people nowadays are able to use Excel on a basic level. But even after working with it for years they never learned to use its full potential, often resulting in doing a lot of tasks manually for hours, which could be quickly automated. Being a Digital Shaper means that you know, that spending time upfront to learn how to automate things, will save you more time in the long term!&lt;/p&gt;
+
+&lt;h2 id=&quot;task&quot;&gt;Task&lt;/h2&gt;
+&lt;p&gt;While our data science track had many step-by-step tasks, the focus for tasks in the accelertor is more adapted to the real-life. This means that for some tasks we don’t teach the exact solution (such as the exact function call), and you need to search them for yourself with your search machine of choice. Don’t worry, we usually give you a good hint what to search for.&lt;/p&gt;
+
+&lt;p&gt;Addtionaly, for some tasks they are simply no solutions. We sometimes ask you to share your opinion on certain topics, or ask you to come up with a problem for a data set you found yourself.&lt;/p&gt;
+
+&lt;h2 id=&quot;edyoucated&quot;&gt;Edyoucated&lt;/h2&gt;
+&lt;p&gt;The track you need to do on Edyoucate is Data Science - Accelerator. If you can’t see it reach out to your local techlabs chapter.&lt;/p&gt;
+
+&lt;p&gt;Additionaly, we also often added useful tipps and content into the description of the Edyoucated material. You should start reading them for this track!&lt;/p&gt;
+
+&lt;h2 id=&quot;extra-curricular-activty&quot;&gt;Extra Curricular Activty&lt;/h2&gt;
+&lt;p&gt;We currently have some longer sections which are extra curricular activity. We don’t expect you to do them, but if you do we will annotate this on your certificate.&lt;/p&gt;
+
+&lt;p&gt;Usually one extra curricular activity takes around 3h to complete, but some might take longer.&lt;/p&gt;
+
+&lt;h2 id=&quot;time-commitment&quot;&gt;Time Commitment&lt;/h2&gt;
+&lt;p&gt;Our Digital Shaper Program usually runs for 4-6 months with a time commitment around 6-10h per week. The accelerator on the other hand is designed for a 3-5h commitment for 6 weeks.&lt;/p&gt;
+
+&lt;h2 id=&quot;timeline&quot;&gt;Timeline&lt;/h2&gt;
+&lt;p&gt;While our usual Digital Shaper program has a fixed timeline, the accelerator has a more flexible approach. The accelerator focuses on the time between the semester, which is different for each location. The program is designed to be complete in 6 weeks in a very relaxed way.&lt;/p&gt;
+
+&lt;p&gt;While the flexible timeline would allow you in theory to complete the program when you want, we have a fixed end-date for all participants in the end of April.&lt;/p&gt;
+
+&lt;h2 id=&quot;certificate&quot;&gt;Certificate&lt;/h2&gt;
+&lt;p&gt;To receive your certificates fullfill the following criteria:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Watch all the materials&lt;/li&gt;
+  &lt;li&gt;Complete all the tasks and submit them in their designated way&lt;/li&gt;
+  &lt;li&gt;Be active on Slack&lt;/li&gt;
+  &lt;li&gt;Finish your course 100%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community-slack--slack-etiquette&quot;&gt;Community, Slack &amp;amp; Slack Etiquette&lt;/h2&gt;
+&lt;p&gt;Most of our communication will be done through Slack, so make sure that you are in the right channel: TODO CHANNEL&lt;/p&gt;
+
+&lt;p&gt;We know that it is hard to achieve the communicty feeling in a remote-only program. This is where we ask you to activly participate in the Slack-channels and discussions.&lt;/p&gt;
+
+&lt;p&gt;Just like working in reallife has an etiquette, we also think that one is required for communicating on Slack.  Unfortunatly, we think they are not as obvious as in real-life hence why we wrote them down here. Please take a minute and read them :) 
+&lt;a href=&quot;slack-etiquette&quot;&gt;Slack Etiquette&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-reach-out-for-help&quot;&gt;How to reach out for help!&lt;/h2&gt;
+&lt;p&gt;It is completly normal to have questions during your learning journey. Often though, we get asked the same question multiple times. We would like to channel all questions and ask you to post them only into our Slack channel. Questions asked to us via private message will simply be ignored.&lt;/p&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;p&gt;We have not planned any events yet so far, but if you are interested to support us in this or even run your own event you are more then welcome to reach out to us :)&lt;/p&gt;</content><author><name></name></author><summary type="html">How is this track working? This accelerator operates a bit different to your previous data science track. While the Digital Shaper Program combines learning on your own, a local community &amp;amp; practice in a group project; the accelerator only focuses on the community and practice, by introducing new concepts to combine them even more. This page explains the differences between the two programs, as well as how the learning and your experience will differ.</summary></entry><entry><title type="html">Setup</title><link href="/2018/08/16/setup.html" rel="alternate" type="text/html" title="Setup" /><published>2018-08-16T00:00:00+02:00</published><updated>2018-08-16T00:00:00+02:00</updated><id>/2018/08/16/setup</id><content type="html" xml:base="/2018/08/16/setup.html">&lt;h1 id=&quot;set-up&quot;&gt;Set Up&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Most of the following tools are recommendations. If you have any other preferences feel free to use them, but we might not be able to help you if we are unfamiliar with your environment.  If you would like an explanation, post in the Slack channel :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ide&quot;&gt;IDE&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; It`s free, and most customizable. You should have a look at all the awesome Visual Studio Code features, and customize your installation yourself: &lt;a href=&quot;https://code.visualstudio.com/docs/introvideos/basics&quot;&gt;Click me&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;shell&quot;&gt;Shell&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Git Bash for windows&lt;/li&gt;
+  &lt;li&gt;For MacOs just your normal terminal&lt;/li&gt;
+  &lt;li&gt;For Linux: You should be able to figure it our yourselves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virtual-environment&quot;&gt;Virtual Environment&lt;/h2&gt;
+&lt;p&gt;We recommend &lt;a href=&quot;https://pypi.org/project/pipenv/&quot;&gt;Pipenv&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;jupyterlabnotebook&quot;&gt;Jupyterlab/Notebook&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter Notebook&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Set Up Most of the following tools are recommendations. If you have any other preferences feel free to use them, but we might not be able to help you if we are unfamiliar with your environment. If you would like an explanation, post in the Slack channel :)</summary></entry><entry><title type="html">Slack etiquitte</title><link href="/2018/08/15/slack-etiquitte.html" rel="alternate" type="text/html" title="Slack etiquitte" /><published>2018-08-15T00:00:00+02:00</published><updated>2018-08-15T00:00:00+02:00</updated><id>/2018/08/15/slack%20etiquitte</id><content type="html" xml:base="/2018/08/15/slack-etiquitte.html">&lt;h2 id=&quot;slack&quot;&gt;Slack&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Please fill out your Slack Profile, Status and upload a picture.&lt;/li&gt;
+  &lt;li&gt;Treat Slack as you treat email: read often, and reply often (we recommend once a day, at least)&lt;/li&gt;
+  &lt;li&gt;Engage in conversation, reply to questions, even if only by selecting an emoji reaction to the messages. This goes a long way to show people are listening!&lt;/li&gt;
+  &lt;li&gt;Do not be afraid to post questions, interesting links, or anything you may judge of general interest to the community&lt;/li&gt;
+  &lt;li&gt;Answer in threads, which makes the discussion easier to follow and more focused.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/slack-threads.png&quot; alt=&quot;../assets/slack-threads.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Slack</summary></entry></feed>

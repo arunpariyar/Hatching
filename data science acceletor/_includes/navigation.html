@@ -2,7 +2,7 @@
   <div class="navi__logo">Data Science <span class="navi__logo--bold">Accelerator</span></div>
   <div class="navi__links">
   {% for item in site.data.navigation %}
-    <a class="navi__links--link" href="{{ item.link }}" {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
+    <a class="navi__links--link btn-nav" href="{{ item.link }}" {% if page.url == item.link %}{% endif %}>{{ item.name }}</a>
   {% endfor %}
   </div>
 </nav>

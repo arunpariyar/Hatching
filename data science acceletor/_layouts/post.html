@@ -9,16 +9,8 @@
   <body>
     {% include navigation.html %}
     <div class="content-grid">
-      <div class="homepage-content">{{ content }}</div>
+      <div class="post-content">{{ content }}</div>
     </div>
-    <!-- <h1>{{ page.title }}</h1>
-
-    <p>
-      {{ page.date | date_to_string }} {% assign author = site.authors | where:
-      'short_name', page.author | first %} {% if author %} -
-      <a href="{{ author.url }}">{{ author.name }}</a>
-      {% endif %}
-    </p> -->
     {% include footer.html %}
   </body>
 </html>
