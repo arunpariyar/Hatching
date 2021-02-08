@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
+import LoadingSpinner from "./LoadingSpinner";
+import "semantic-ui-css/semantic.min.css";
 
 class App extends React.Component {
   state = { lat: null, errorMessage: "" };
@@ -13,14 +15,14 @@ class App extends React.Component {
   }
   render() {
     if (this.state.lat && !this.state.errorMessage) {
-      return <h2> Latitude : {this.state.lat}</h2>;
+      return <SeasonDisplay lat={this.state.lat} />;
     }
 
     if (this.state.errorMessage && !this.state.lat) {
       return <h2>Error: {this.state.errorMessage}</h2>;
     }
 
-    return <h1>Loading</h1>;
+    return <LoadingSpinner message="Please accept your location request" />;
   }
 }
 
