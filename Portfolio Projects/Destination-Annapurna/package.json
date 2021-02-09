@@ -1,0 +1,14 @@
+{
+  "name": "destination-annapurna",
+  "version": "1.0.0",
+  "description": "Travel site for the exquisite Annapurna ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arun Pariyar",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.32.6"
+  }
+}
