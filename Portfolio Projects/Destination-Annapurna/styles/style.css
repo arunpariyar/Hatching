@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;1,600&family=Fjalla+One&family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,600&family=Fjalla+One&family=Fredericka+the+Great&display=swap");
 *,
 *::before,
 *::after {
@@ -14,6 +14,7 @@ html {
 body {
   font-size: 16px;
   line-height: 1.7;
+  font-family: var(--font-text);
 }
 
 img {
@@ -29,7 +30,7 @@ select {
 }
 
 :root {
-  --font-text: "Crimson Pro", serif;
+  --font-text: "Montserrat", sans-serif;
   --font-heading: "Fjalla One", sans-serif;
   --font-hero: "Fredericka the Great", cursive;
 }
@@ -73,6 +74,61 @@ select {
 .logo {
   width: 60px;
   height: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [fullbleed-start] minmax(2rem, 1fr) [center-start] repeat(6, [col-start] 1fr [col-end]) [center-end] minmax(2rem, 1fr) [fullbleed-end];
+}
+
+.trips {
+  grid-column: center-start/center-end;
+  margin: 10rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-gap: 10rem;
+}
+
+.trip {
+  background-color: whitesmoke;
+}
+.trip__name {
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  background-color: #5f4620;
+  color: #fff;
+  text-align: center;
+}
+.trip__photo {
+  width: 100%;
+}
+.trip__details {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  font-weight: 300;
+  margin-left: 1rem;
+  justify-items: center;
+}
+.trip__details--height, .trip__details--difficulty, .trip__details--days, .trip__details--size {
+  display: flex;
+}
+
+.tripIcons {
+  margin-right: 1rem;
+}
+
+.gallery {
+  background-color: yellowgreen;
+  grid-column: fullbleed-start/fullbleed-end;
+}
+
+.footer {
+  background-color: #222222;
+  grid-column: fullbleed-start/fullbleed-end;
 }
 
 /*# sourceMappingURL=style.css.map */
