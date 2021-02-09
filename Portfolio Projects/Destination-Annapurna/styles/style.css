@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;1,600&family=Fjalla+One&family=Fredericka+the+Great&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  --font-text: "Crimson Pro", serif;
+  --font-heading: "Fjalla One", sans-serif;
+  --font-hero: "Fredericka the Great", cursive;
+}
+
+.header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), url(../../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.header__text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.5;
+}
+.header__text--intro {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+}
+.header__text--hero {
+  color: white;
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 21px;
+  font-family: var(--font-hero);
+}
+
+.logo-container {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

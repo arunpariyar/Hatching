@@ -1,0 +1,33 @@
+//Remove margin and padding from all elements
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//Setting the root-size to be 10px that makes it easier to work with rm unit
+html {
+  font-size: 62.5%;
+}
+
+//Setting the line height and font-size to be 16px
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+//setting image-size to be at 100% and to have display of block
+img {
+  max-width: 100%;
+  display: block;
+}
+
+//inherit the text from parent element
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
