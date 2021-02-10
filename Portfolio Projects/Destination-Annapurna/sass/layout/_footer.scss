@@ -1,4 +1,5 @@
 .footer {
-  background-color: rgb(34, 34, 34);
+  background-color: var(--earth);
   grid-column: fullbleed-start / fullbleed-end;
+  margin-top: 1.5rem;
 }

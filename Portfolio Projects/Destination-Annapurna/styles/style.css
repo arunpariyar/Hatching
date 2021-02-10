@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  padding: 1.5rem;
   font-size: 16px;
   line-height: 1.7;
   font-family: var(--font-text);
@@ -33,13 +34,17 @@ select {
   --font-text: "Montserrat", sans-serif;
   --font-heading: "Fjalla One", sans-serif;
   --font-hero: "Fredericka the Great", cursive;
+  --earth: #5f4620;
+  --earth-label: #5f4620ce;
+  --grey: #f9f7f7;
+  --brown: #c08e23;
 }
 
 .header {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), url(../../images/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 96vh;
   position: relative;
 }
 .header__text {
@@ -58,6 +63,7 @@ select {
   font-family: var(--font-heading);
 }
 .header__text--hero {
+  margin-bottom: 8rem;
   color: white;
   text-transform: uppercase;
   font-size: 5rem;
@@ -81,9 +87,18 @@ select {
   grid-template-columns: [fullbleed-start] minmax(2rem, 1fr) [center-start] repeat(6, [col-start] 1fr [col-end]) [center-end] minmax(2rem, 1fr) [fullbleed-end];
 }
 
+.section-heading {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--earth);
+  letter-spacing: 15px;
+  margin: 8rem 0;
+}
+
 .trips {
   grid-column: center-start/center-end;
-  margin: 10rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
   grid-gap: 10rem;
@@ -97,9 +112,10 @@ select {
   font-size: 2rem;
   font-family: var(--font-heading);
   text-transform: uppercase;
-  background-color: #5f4620;
+  background-color: var(--earth);
   color: #fff;
   text-align: center;
+  letter-spacing: 1.5px;
 }
 .trip__photo {
   width: 100%;
@@ -110,11 +126,25 @@ select {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   font-weight: 300;
-  margin-left: 1rem;
   justify-items: center;
+  background-color: var(--grey);
 }
 .trip__details--height, .trip__details--difficulty, .trip__details--days, .trip__details--size {
   display: flex;
+}
+.trip__details--info {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(max-content, 1fr));
+  justify-items: center;
+  align-items: center;
+  background-color: #eeeded;
+}
+.trip__price {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--earth);
 }
 
 .tripIcons {
@@ -122,13 +152,105 @@ select {
 }
 
 .gallery {
-  background-color: yellowgreen;
   grid-column: fullbleed-start/fullbleed-end;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 1vw;
+}
+.gallery__photos--1 {
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+}
+.gallery__photos--2 {
+  grid-column: 1/span 2;
+  grid-row: 3/-1;
+}
+.gallery__photos--3 {
+  grid-column: 3/span 3;
+  grid-row: 1/span 3;
+}
+.gallery__photos--4 {
+  grid-column: 3/span 1;
+  grid-row: 4/span 2;
+}
+.gallery__photos--5 {
+  grid-column: 4/span 2;
+  grid-row: 4/span 2;
+}
+.gallery__photos--6 {
+  background-position: center;
+  grid-column: 3/span 3;
+  grid-row: 6/span 2;
+}
+.gallery__photos--7 {
+  grid-column: 6/span 3;
+  grid-row: 5/-1;
+}
+.gallery__photos--8 {
+  grid-column: 7/span 2;
+  grid-row: 1/span 4;
+}
+.gallery__photos--9 {
+  background-position: center;
+  grid-column: 6/span 1;
+  grid-row: 1/span 3;
+}
+.gallery__photos--10 {
+  grid-column: 6/span 1;
+  grid-row: 4/span 1;
+}
+.gallery__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .footer {
-  background-color: #222222;
+  background-color: var(--earth);
   grid-column: fullbleed-start/fullbleed-end;
+  margin-top: 1.5rem;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: var(--brown);
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 300;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1.5rem 1rem rgba(255, 255, 255, 0.15);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: var(--earth);
+}
+
+.btn-trip {
+  padding: 0.5rem 1.5rem !important;
+}
+
+.btn-trip:hover {
+  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-trip:active {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
