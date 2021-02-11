@@ -9,6 +9,16 @@
   grid-gap: 1vw;
 
   &__photos {
+    width: 100%;
+    overflow: hidden;
+
+    & > img {
+      transition: all 0.5s;
+      transform: scale(1.03);
+    }
+    & > img:hover {
+      transform: scale(1.15);
+    }
     &--1 {
       grid-column: 1 / span 2;
       grid-row: 1 / span 2;

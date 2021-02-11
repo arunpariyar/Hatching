@@ -34,11 +34,14 @@
 
 .logo-container {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  top: 3rem;
+  left: 3rem;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  background-color: rgba(#ffffff, 0.6);
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  padding-top: 6px;
 }
