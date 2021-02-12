@@ -1,3 +1,5 @@
+//Responsive Breakpoints
+
 //Remove margin and padding from all elements
 *,
 *::before,
@@ -10,12 +12,26 @@
 //Setting the root-size to be 10px that makes it easier to work with rm unit
 html {
   font-size: 62.5%;
+
+  @include respond(tab-land) {
+    // font-size: 50%;
+  }
+  @include respond(tab-port) {
+    // font-size: 50%;
+  }
+  @include respond(phone) {
+    // font-size: 50%;
+  }
+
+  // @include respond(big-desktop) {
+  //   font-size: 70%;
+  // }
 }
 
 //Setting the line height and font-size to be 16px
 body {
   padding: 1.5rem;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   font-family: var(--font-text);
 }

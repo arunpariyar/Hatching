@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  align-items: center;
+  @include respond(tab-land) {
+    padding: 4rem 4rem;
+  }
+  @include respond(tab-port) {
+    padding: 4rem 2rem;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  &__link:link,
+  &__link:visited {
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    margin: 0 3rem;
+    transition: all 0.3s;
+  }
+  &__link:hover {
+    padding-bottom: 1.5rem;
+
+    border-bottom: 2px solid var(--brown);
+  }
+  &__link:active {
+    padding-bottom: 1rem;
+  }
+}
+
+.logo {
+  background-color: rgba(#ffffff, 0.6);
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+  padding-top: 6px;
+}

@@ -13,23 +13,33 @@
   </head>
   <body>
     <!-- THE HEADER SECTION -->
-    <div class="header">
-      <div class="logo-container">
-        <img class="logo" src="images/logo.svg" alt="Mountains" />
+    <section class="header">
+      <div class="nav">
+        <div class="nav_logo">
+          <img class="logo" src="images/logo.svg" alt="Mountains" />
+        </div>
+        <ul class="nav__links">
+          <li class="nav__item"><a class="nav__link btnToAdventures" href="#section--1">Adventures</a></li>
+          <li class="nav__item"><a class="nav__link btnToImpressions" href="#section--2">Impressions</a></li>
+          <li class="nav__item"><a class="nav__link btnToBook" href="#">Make it happen</a></li>
+        </ul>
       </div>
+      <!-- <div class="logo-container">
+        <img class="logo" src="images/logo.svg" alt="Mountains" />
+      </div> -->
       <div class="header__text">
         <h2 class="header__text--intro">
           Experience the best adventures in the
         </h2>
         <h1 class="header__text--hero">Annapurna<br />himalayas</h1>
-        <a href="#" class="btn">Explore Adventures</a>
+        <button href="#section--trips" class="btn-submit btntotrips">Explore Adventures</button>
       </div>
-    </div>
+    </section>
 
-    <div class="section-heading">Most Popular Adventures</div>
+    <div class="section-heading" id="section--1">Most Popular Adventures</div>
 
     <!-- THE TRIPS SECTION -->
-    <div class="grid-container">
+    <section class="grid-container" id="section--trips">
       <div class="trips">
         <div class="trip">
           <img
@@ -320,12 +330,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section-heading">Impressions</div>
+    <div class="section-heading" id="section--2">Impressions</div>
 
     <!-- THE GALLERY SECTION -->
-    <div class="gallery">
+    <section class="gallery">
       <figure class="gallery__photos gallery__photos--1">
         <img
           src="images/gallery/suspended bridge-Pakding-Nepal.jpg"
@@ -396,8 +406,8 @@
           class="gallery__photo"
         />
       </figure>
-    </div>
-    <div class="section-heading">Your Adventure Begins</div>
+    </section>
+    <div class="section-heading" id="section--3">Your Adventure Begins</div>
     <section class="booking">
       <div class="booking__container">
         <form action="" class="form">
@@ -459,5 +469,6 @@
         </ul>
       </div>
     </section>
+  <script src="scripts/script.js"></script>
   </body>
 </html>

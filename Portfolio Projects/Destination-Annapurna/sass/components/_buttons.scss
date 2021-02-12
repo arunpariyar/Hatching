@@ -45,7 +45,6 @@
   color: white;
   letter-spacing: 1px;
   transition: all 0.2s;
-  display: inline-block;
   border: none;
   cursor: pointer;
   &:focus {
@@ -55,7 +54,7 @@
 
 .btn-submit:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 1rem rgba(255, 255, 255, 0.15);
 }
 .btn-submit:active {
   transform: translateY(-1px);
