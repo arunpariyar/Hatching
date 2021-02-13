@@ -1,18 +1,13 @@
 .booking {
   padding: 10rem 0;
-  background-image: linear-gradient(
-    to right bottom,
-    var(--brown),
-    var(--brown)
-  );
-  //   &__container {
-  //   }
+  background-color: var(--brown);
+
   &__container {
     margin: auto 15rem;
     background-image: linear-gradient(
         90deg,
-        rgba(#fff, 0.9) 0%,
-        rgba(#fff, 0.9) 50%,
+        rgba(#fff, 0.7) 0%,
+        rgba(#fff, 0.7) 50%,
         transparent 50%
       ),
       url(../../images/booking.jpg);
@@ -21,8 +16,15 @@
     background-position: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(black, 0.5);
-    // border: 1px solid var(--brown);
-    // padding: 35px;
-    // background-clip: content-box;
+
+    @include respond(tab-port) {
+      background-image: linear-gradient(
+          90deg,
+          rgba(#fff, 0.7) 0%,
+          rgba(#fff, 0.7) 50%,
+          rgba(#fff, 0.7) 100%
+        ),
+        url(../../images/booking.jpg);
+    }
   }
 }

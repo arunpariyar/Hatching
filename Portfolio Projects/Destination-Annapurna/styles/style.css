@@ -10,6 +10,12 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   padding: 1.5rem;
   font-size: 1.6rem;
@@ -61,6 +67,11 @@ select {
   justify-content: space-between;
   list-style: none;
 }
+@media (max-width: 56.25em) {
+  .nav__links {
+    display: block;
+  }
+}
 .nav__link:link, .nav__link:visited {
   letter-spacing: 1.5px;
   text-decoration: none;
@@ -68,14 +79,17 @@ select {
   letter-spacing: 3px;
   color: white;
   margin: 0 3rem;
-  transition: all 0.3s;
+  transition: all 0.2s;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid transparent;
 }
 .nav__link:hover {
   padding-bottom: 1.5rem;
   border-bottom: 2px solid var(--brown);
 }
 .nav__link:active {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid transparent;
 }
 
 .logo {
@@ -108,13 +122,23 @@ select {
   text-transform: uppercase;
   font-family: var(--font-heading);
 }
+@media (max-width: 56.25em) {
+  .header__text--intro {
+    font-size: 1.8rem;
+  }
+}
 .header__text--hero {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
   color: white;
   text-transform: uppercase;
   font-size: 5rem;
   letter-spacing: 21px;
   font-family: var(--font-hero);
+}
+@media (max-width: 56.25em) {
+  .header__text--hero {
+    font-size: 4.5rem;
+  }
 }
 
 .grid-container {
@@ -312,15 +336,20 @@ select {
 
 .booking {
   padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, var(--brown), var(--brown));
+  background-color: var(--brown);
 }
 .booking__container {
   margin: auto 15rem;
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../../images/booking.jpg);
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 50%), url(../../images/booking.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 56.25em) {
+  .booking__container {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.7) 100%), url(../../images/booking.jpg);
+  }
 }
 
 .btn:link,
@@ -391,6 +420,11 @@ select {
 .form {
   width: 50%;
   padding: 5rem;
+}
+@media (max-width: 56.25em) {
+  .form {
+    width: 100%;
+  }
 }
 .form__group:not(:last-child) {
   margin-bottom: 3rem;

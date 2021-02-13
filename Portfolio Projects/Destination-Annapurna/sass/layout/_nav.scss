@@ -15,6 +15,9 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    @include respond(tab-port) {
+      display: block;
+    }
   }
   &__link:link,
   &__link:visited {
@@ -24,16 +27,27 @@
     letter-spacing: 3px;
     color: white;
     margin: 0 3rem;
-    transition: all 0.3s;
+    transition: all 0.2s;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid transparent;
   }
   &__link:hover {
     padding-bottom: 1.5rem;
-
     border-bottom: 2px solid var(--brown);
   }
   &__link:active {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid transparent;
   }
+  // &__hamburger {
+  //   // display: none;
+  //   float: right;
+  //   margin-top: 5.5rem;
+  //   margin-right: 5rem;
+  //   cursor: pointer;
+  //   font-size: 2.5rem;
+  //   color: white;
+  // }
 }
 
 .logo {
