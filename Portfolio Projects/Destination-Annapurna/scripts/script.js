@@ -8,25 +8,30 @@ btnToTrips.addEventListener("click", () => {
 
 // Sticky Navigation using intersection observer -----------------------------
 //selecting the navi element
-const navi = document.querySelector(".nav");
+const nav = document.querySelector(".nav");
 
 //creating the function that makes the Navi Sticky
 const stickyNav = function (entries) {
   const [entry] = entries;
   if (!entry.isIntersecting) {
-    navi.classList.add("sticky");
+    nav.classList.add("sticky");
+    logo.classList.add("logo-sticky");
   } else {
-    navi.classList.remove("sticky");
+    nav.classList.remove("sticky");
+    logo.classList.remove("logo-sticky");
   }
 };
 
 //Header Element
+const logo = document.querySelector(".logo");
 const header = document.querySelector(".header");
+const navHeight = nav.getBoundingClientRect().height;
 
 //creating a header observer using IntersectionObserver API
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
   threshold: 0,
+  rootMargin: `-${navHeight}px`,
 });
 
 //initiating the header Observer on the header

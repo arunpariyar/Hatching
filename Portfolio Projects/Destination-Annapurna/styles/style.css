@@ -101,6 +101,12 @@ select {
   padding-top: 6px;
 }
 
+.logo-sticky {
+  width: 55px;
+  height: 55px;
+  padding-top: 6px;
+}
+
 .sticky {
   position: fixed;
   background-color: rgba(95, 70, 32, 0.95);
