@@ -39,15 +39,6 @@
     padding-bottom: 1.5rem;
     border-bottom: 2px solid transparent;
   }
-  // &__hamburger {
-  //   // display: none;
-  //   float: right;
-  //   margin-top: 5.5rem;
-  //   margin-right: 5rem;
-  //   cursor: pointer;
-  //   font-size: 2.5rem;
-  //   color: white;
-  // }
 }
 
 .logo {
@@ -56,4 +47,15 @@
   width: 75px;
   height: 75px;
   padding-top: 6px;
+}
+
+.sticky {
+  position: fixed;
+  background-color: rgba(#5f4620, 0.95);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 9999;
+  padding: 1.5rem 8rem;
 }

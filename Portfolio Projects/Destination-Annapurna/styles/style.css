@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 @media (max-width: 56.25em) {
   html {
@@ -98,6 +99,17 @@ select {
   width: 75px;
   height: 75px;
   padding-top: 6px;
+}
+
+.sticky {
+  position: fixed;
+  background-color: rgba(95, 70, 32, 0.95);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 9999;
+  padding: 1.5rem 8rem;
 }
 
 .header {

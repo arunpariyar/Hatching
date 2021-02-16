@@ -12,6 +12,7 @@
 //Setting the root-size to be 10px that makes it easier to work with rm unit
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 
   @include respond(tab-port) {
     font-size: 50%;
