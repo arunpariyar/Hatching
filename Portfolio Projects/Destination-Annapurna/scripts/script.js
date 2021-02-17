@@ -36,3 +36,26 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 
 //initiating the header Observer on the header
 headerObserver.observe(header);
+
+//Creating the reveal on scroll effect using the intersection observer API =================================
+
+//seleting all section
+const allSections = document.querySelectorAll(".section");
+
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+  console.log(entry);
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove("section-hidden");
+  observer.unobserve(entry.target);
+};
+//creating the section observer
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+});
+
+allSections.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add("section-hidden");
+});
