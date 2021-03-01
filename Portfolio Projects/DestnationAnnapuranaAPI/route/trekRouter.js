@@ -3,24 +3,22 @@ const express = require('express');
 const router = express.Router();
 
 const {
-  getAllAdventures,
+  getAllTreks, //CHANGE HERE
   createTrek,
   getTrek,
   patchTrek,
   deleteTrek,
-  checkID,
-  checkBody,
-} = require('../controllers/adventureController');
+} = require('../controllers/trekController');
 
 //applying checkID middleware using params
-router.param('id', checkID);
+// router.param('id', checkID);
 
 //create a middle ware that checks if the request body contains trips name and price
 // if not i must send a 404
 
 //USING EXPRESS ROUTE CHAINING TO MAKE THE CODE SUCCIENT
 // get request for the root // post request for the root
-router.route('/').get(getAllAdventures).post(checkBody, createTrek);
+router.route('/').get(getAllTreks).post(createTrek);
 //get a specific trek //patch a trek //deleting a trip
 router.route('/:id').get(getTrek).patch(patchTrek).delete(deleteTrek);
 

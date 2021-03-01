@@ -3,7 +3,7 @@
 const express = require('express'); // creating our app varible.
 const morgan = require('morgan'); //import a third party middleware called morgen
 const userRouter = require('./route/userRouter');
-const adventureRouter = require('./route/adventureRouter');
+const trekRouter = require('./route/trekRouter');
 
 const app = express();
 
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 /******************************* MOUNTING OUR ROUTES *********************************/
-app.use('/api/v1/adventures', adventureRouter);
+app.use('/api/v1/treks/', trekRouter); //CHANGE HERE
 app.use('/api/v1/users/', userRouter);
 
 //exporting the app to be used by server.js
