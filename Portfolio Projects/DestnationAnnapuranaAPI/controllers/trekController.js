@@ -22,7 +22,26 @@ exports.createTrek = async (req, res) => {
 
 exports.getAllTreks = async (req, res) => {
   try {
-    const treks = await Trek.find();
+    //1.BASIC FILTERING
+    // building and adding querying feature
+    const queryObj = { ...req.query };
+    //take away the exlusions that are not required
+    const excludedFields = ['page', 'sort', 'limit', 'fields'];
+    excludedFields.forEach((el) => delete queryObj[el]);
+
+    //2. ADVANCED FILTERING FOR GREATER THAN AND LESS THAN FIELDS
+    //convert the queryObj to string
+    let queryString = JSON.stringify(queryObj);
+    //replace the greater and less than sign to have a $ on using regular expressions
+    queryString = queryString.replace(
+      /\b(gte|gt|lte|lt)\b/g,
+      (match) => `$${match}`
+    );
+    // save the query into a query value and then use that to search the query //convert to JSON
+    const query = Trek.find(JSON.parse(queryString));
+
+    //SENDING RESPONSE
+    const treks = await query;
     res.status(200).json({
       status: 'success',
       data: {
