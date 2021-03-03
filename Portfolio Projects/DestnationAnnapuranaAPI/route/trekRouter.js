@@ -8,6 +8,7 @@ const {
   getTrek,
   patchTrek,
   deleteTrek,
+  aliasTopTreks,
 } = require('../controllers/trekController');
 
 //applying checkID middleware using params
@@ -17,6 +18,8 @@ const {
 // if not i must send a 404
 
 //USING EXPRESS ROUTE CHAINING TO MAKE THE CODE SUCCIENT
+//creating an alias for the top 5 treks
+router.route('/top-treks').get(aliasTopTreks, getAllTreks);
 // get request for the root // post request for the root
 router.route('/').get(getAllTreks).post(createTrek);
 //get a specific trek //patch a trek //deleting a trip

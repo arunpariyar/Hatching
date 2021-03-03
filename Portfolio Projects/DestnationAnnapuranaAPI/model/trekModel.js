@@ -42,9 +42,11 @@ const trekSchema = new mongoose.Schema({
   },
   images: [String],
   startDates: [Date],
+  ratingsAverage: Number,
   createdAt: {
     type: Date,
     default: Date.now(),
+    select: false, //using this we hide createdAt from being shown in all api calls
   },
 });
 //creating a Model using the above mongoose Sehema
