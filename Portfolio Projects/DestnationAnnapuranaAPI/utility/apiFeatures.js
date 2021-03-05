@@ -24,7 +24,7 @@ class APIFeatures {
     // 3. SORTING
     if (this.queryString.sort) {
       //to consider for multiple sort options
-      const sortOpt = this.query.sort.split(',').join(' ');
+      const sortOpt = this.queryString.sort.split(',').join(' ');
       this.query = this.query.sort(sortOpt);
     } else {
       //sort by when the tours were created
@@ -33,10 +33,10 @@ class APIFeatures {
     return this;
   }
 
-  limit() {
+  limitFields() {
     // 4. Limiting fields (good for users wanting specific data in a heavy data set)
     if (this.queryString.fields) {
-      const fieldOpt = this.query.fields.split(',').join(' ');
+      const fieldOpt = this.queryString.fields.split(',').join(' ');
       this.query = this.query.select(fieldOpt);
     } else {
       //using the -v we exclude the fields altogther
@@ -51,7 +51,6 @@ class APIFeatures {
     const skip = (page - 1) * limit; //calculating how many trip to skip
     //using skip to calculate the right page to land on
     this.query = this.query.skip(skip).limit(limit);
-
     return this;
   }
 }

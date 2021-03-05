@@ -4,7 +4,7 @@ const APIFeatures = require('../utility/apiFeatures');
 /******************************* ALIAS ROUTES  *********************************/
 exports.aliasTopTreks = async (req, res, next) => {
   //pre-generate the filter options;
-  req.query.limit = '5';
+  req.query.limit = '2';
   req.query.sort = '-ratingsAverage,price';
   next();
 };
@@ -35,14 +35,14 @@ exports.getAllTreks = async (req, res) => {
     const features = new APIFeatures(Trek.find(), req.query)
       .filter()
       .sort()
-      .limit()
+      .limitFields()
       .paginate();
     //SENDING RESPONSE
     const treks = await features.query;
     res.status(200).json({
       status: 'success',
       data: {
-        treks,
+        treks: treks,
       },
     });
   } catch (err) {
