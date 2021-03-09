@@ -1,0 +1,37 @@
+.form {
+  width: 50%;
+  padding: 5rem;
+  @include respond(tab-port) {
+    width: 100%;
+  }
+
+  &__group:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  &__heading {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--earth);
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+  }
+
+  &__input {
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(white, 0.5);
+    border: none;
+
+    border-bottom: 3px solid transparent;
+    width: 100%;
+    display: block;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(black, 0.2);
+      border-bottom: 3.5px solid var(--brown);
+    }
+  }
+}

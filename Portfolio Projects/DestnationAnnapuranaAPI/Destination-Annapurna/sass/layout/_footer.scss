@@ -1,0 +1,61 @@
+.footer {
+  padding: 5rem 0;
+  background-color: var(--earth);
+  grid-column: fullbleed-start / fullbleed-end;
+
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+
+  color: white;
+  &__logobox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  &__about {
+    width: 50%;
+    margin: 5rem auto;
+  }
+
+  &__links {
+    margin: 10rem 5rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    &--navigation {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      & > li {
+        cursor: pointer;
+        margin: 0 2rem;
+        transition: all 0.2s;
+      }
+      & > li:hover {
+        color: var(--brown);
+        transform: translateY(-3px);
+      }
+    }
+
+    &--socialmedia {
+      display: flex;
+      list-style: none;
+      text-transform: uppercase;
+      align-items: center;
+      letter-spacing: 1px;
+      & > li {
+        font-size: 2.5rem;
+        cursor: pointer;
+        margin: 0 2rem;
+        transition: all 0.2s;
+      }
+      & > li:hover {
+        color: var(--brown);
+      }
+    }
+  }
+}
