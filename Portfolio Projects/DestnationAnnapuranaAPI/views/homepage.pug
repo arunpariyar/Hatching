@@ -1,4 +1,27 @@
 extends base
 
 block content 
-    h1= "This is the homepage"
+    section.section.section--1
+        .section-heading#section--1 Most Popular Adventures
+        .grid-container#section--trips
+            .trips
+                each trek in treks
+                    .trip
+                        img(class="trip__photo" src="img/annapurna-base-camp.jpg" alt="Annapurna Base Camp")
+                        h4.trip__name #{trek.name} 
+                        .trip__details
+                            .trip__details--height
+                                p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> #{trek.elevation +'m'}
+                            .trip__details--difficulty
+                                p: span(class='tripIcons'): <i class='fas fa-hiking fa-lg'></i> #{trek.difficulty}
+                            .trip__details--days
+                                p: span(class="tripIcons"): <i class='fas fa-calendar-alt'></i> #{trek.duration + " Days"}
+                            .trip__details--size
+                                p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> Min 5
+                        .trip__details--info
+                                p.trip__price From &euro; #{trek.price}
+                                a(href="" class="btn btn-trip") Details
+        
+
+
+
