@@ -54,6 +54,7 @@ select {
   justify-content: space-between;
   padding: 2.5rem 8rem;
   align-items: center;
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 75em) {
   .nav {
@@ -124,10 +125,10 @@ select {
 
 .header {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)),
-    url(../../images/hero.jpg);
+    url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 96vh;
+  height: 77.5vh;
   position: relative;
 }
 .header__text {
@@ -377,7 +378,7 @@ select {
       rgba(255, 255, 255, 0.7) 50%,
       transparent 50%
     ),
-    url(../../images/booking.jpg);
+    url(../img/booking.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 3px;
