@@ -1,0 +1,9 @@
+extends base
+
+block content 
+    section.header()
+        .header__text
+            //- h2.header__text--intro Experience the best adventures in the
+            h1.header__text--hero= `${trek.name}`
+            //- button(href="#section--1").btn-submit.btnToTrips Explore Adventures
+    h1= `${trek}`
