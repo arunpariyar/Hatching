@@ -7,8 +7,22 @@ block content
             h1.header__text--trip= `${trek.name}`
             //- button(href="#section--1").btn-submit.btnToTrips Explore Adventures
     section.tripdetails
+    .trip_info
         .trip_intro
+            .trip_intro--name
+                p= `${trek.name}`
             .trip_intro--summary
                 p= `${trek.summary}`
             .trip_intro--description
                 p= `${trek.description}`
+        .trip_facts
+            .trip_facts--title Quick facts
+            .trip_facts--details
+                .trip__details--height
+                    p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> #{trek.elevation +'m'}
+                .trip__details--difficulty
+                    p: span(class='tripIcons'): <i class='fas fa-hiking fa-lg'></i> #{trek.difficulty}
+                .trip__details--days
+                    p: span(class="tripIcons"): <i class='fas fa-calendar-alt'></i> #{trek.duration + " Days"}
+                .trip__details--size
+                    p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> Min 5
