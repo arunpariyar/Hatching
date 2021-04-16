@@ -18,11 +18,11 @@ block content
         .trip_facts
             .trip_facts--title Quick facts
             .trip_facts--details
-                .trip__details--height
-                    p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> #{trek.elevation +'m'}
-                .trip__details--difficulty
-                    p: span(class='tripIcons'): <i class='fas fa-hiking fa-lg'></i> #{trek.difficulty}
-                .trip__details--days
-                    p: span(class="tripIcons"): <i class='fas fa-calendar-alt'></i> #{trek.duration + " Days"}
-                .trip__details--size
-                    p: span(class="tripIcons"): <i class="fas fa-user-friends"></i> Min 5
+                .trek__facts--height
+                    p: span.trek_icons: <i class="fas fa-user-friends"></i> #{trek.elevation +'m'}
+                .trek__facts--difficulty
+                    p: span.trek_icons: <i class='fas fa-hiking fa-lg'></i> #{trek.difficulty}
+                .trek__facts--days
+                    p: span.trek_icons: <i class='fas fa-calendar-alt'></i> #{trek.duration + " Days"}
+                .trek__facts--size
+                    p: span.trek_icons: <i class="fas fa-user-friends"></i> #{"Max " + trek.maxGroupSize }
