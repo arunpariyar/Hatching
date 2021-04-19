@@ -2,6 +2,7 @@ extends base
 
 block content 
     section.header
+        img.header__herocover(src=`/img/hero/${trek.imageCover}`)
         .header__text
             //- h2.header__text--intro Experience the best adventures in the
             h1.header__text--trip= `${trek.name}`
@@ -15,10 +16,10 @@ block content
                 p= `${trek.summary}`
             .trip_intro--description
                 p= `${trek.description}`
-        .trip_facts
-            .trip_facts--title Quick facts
-            .trip_facts--details
-                .trek__facts--height
+        .trip__facts
+            .trip__facts--title Quick facts
+            .trip__facts--details
+                .trek__facts--height 
                     p: span.trek_icons: <i class="fas fa-user-friends"></i> #{trek.elevation +'m'}
                 .trek__facts--difficulty
                     p: span.trek_icons: <i class='fas fa-hiking fa-lg'></i> #{trek.difficulty}
@@ -26,3 +27,12 @@ block content
                     p: span.trek_icons: <i class='fas fa-calendar-alt'></i> #{trek.duration + " Days"}
                 .trek__facts--size
                     p: span.trek_icons: <i class="fas fa-user-friends"></i> #{"Max " + trek.maxGroupSize }
+
+    section.trip__gallery
+        each img in trek.images
+            .trip__gallery--frame
+                img.trip__gallery--photo(src=`/img/abc/${img}`, alt="")
+
+
+    section
+        I am just a new section

@@ -14,7 +14,7 @@
   margin-bottom: 1.5rem;
 }
 .trip_intro--summary {
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 2px;
   text-align: justify;
   text-justify: inter-word;
@@ -29,31 +29,46 @@
   line-height: 2;
 }
 
-.trek_icons {
-  font-size: 2.5rem;
-}
-
-.trip_facts {
+.trip__facts {
   padding: 8rem 0;
 }
-.trip_facts--title {
+.trip__facts--title {
   font-family: var(--font-heading);
   font-size: 2rem;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   color: var(--earth);
 }
-.trip_facts--details {
+.trip__facts--details {
   display: grid;
   grid-gap: 2rem;
   font-size: 1.5rem;
   color: var(--earth);
 }
-.trip_facts--height, .trip_facts--difficulty, .trip_facts--days, .trip_facts--size {
-  place-items: center;
+
+.trek__facts--height,
+.trek__facts--difficulty,
+.trek__facts--days,
+.trek__facts--size {
   display: grid;
   grid-template-columns: max-content max-content;
+  align-items: center;
   grid-column-gap: 2rem;
+}
+
+.trek_icons {
+  font-size: 2.5rem;
+}
+
+.trip__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+.trip__gallery--photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=trekpage.css.map */
