@@ -31,8 +31,7 @@ block content
     section.trip__gallery
         each img in trek.images
             .trip__gallery--frame
-                img.trip__gallery--photo(src=`/img/abc/${img}`, alt="")
+                img.trip__gallery--photo(src=`/img/trip-gallery/${trek.name}/${img}`, alt="")
 
 
-    section
-        I am just a new section
+    section.itinerary I am the itinerary
