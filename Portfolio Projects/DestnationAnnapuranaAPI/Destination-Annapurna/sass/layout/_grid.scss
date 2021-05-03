@@ -1,7 +1,0 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: [fullbleed-start] minmax(2rem, 1fr) [center-start] repeat(
-      6,
-      [col-start] 1fr [col-end]
-    ) [center-end] minmax(2rem, 1fr) [fullbleed-end];
-}
