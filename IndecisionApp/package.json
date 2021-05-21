@@ -4,8 +4,8 @@
   "description": "minimal react boilerplate with babel and webpack ",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server public",
-    "build": "webpack --watch"
+    "dev-server": "webpack serve",
+    "build": "webpack"
   },
   "author": "arun pariyar",
   "license": "ISC",
@@ -14,10 +14,13 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
+    "dev-server": "^0.2.0",
     "live-server": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "webpack": "^5.37.1"
+    "react-modal": "^3.13.1",
+    "webpack": "^5.37.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "webpack-cli": "^4.7.0"
