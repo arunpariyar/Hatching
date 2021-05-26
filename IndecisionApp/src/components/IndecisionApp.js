@@ -5,6 +5,7 @@ import Options from "./Options";
 import Action from "./Action";
 import Header from "./Header";
 import OptionModal from "./OptionModal";
+import "normalize.css";
 import "../styles/style.scss";
 
 export default class IndecisionApp extends React.Component {
@@ -76,20 +77,22 @@ export default class IndecisionApp extends React.Component {
     return (
       <div>
         <Header title={this.state.title} subtitle={this.state.subtitle} />
-        <Action
-          handlePick={this.handlePick}
-          hasOptions={this.state.options.length > 0}
-        />
-        <Options
-          handleRemoveAll={this.handleRemoveAll}
-          handleRemoveOption={this.handleRemoveOption}
-          options={this.state.options}
-        />
-        <AddOptions handleAddOption={this.handleAddOption} />
-        <OptionModal
-          selectedOption={this.state.selectedOption}
-          handleClearSelectedOption={this.handleClearSelectedOption}
-        />
+        <div className="container">
+          <Action
+            handlePick={this.handlePick}
+            hasOptions={this.state.options.length > 0}
+          />
+          <Options
+            handleRemoveAll={this.handleRemoveAll}
+            handleRemoveOption={this.handleRemoveOption}
+            options={this.state.options}
+          />
+          <AddOptions handleAddOption={this.handleAddOption} />
+          <OptionModal
+            selectedOption={this.state.selectedOption}
+            handleClearSelectedOption={this.handleClearSelectedOption}
+          />
+        </div>
       </div>
     );
   }
