@@ -5,12 +5,17 @@ import Options from "./Options";
 import Action from "./Action";
 import Header from "./Header";
 import OptionModal from "./OptionModal";
+import "../styles/style.scss";
 
 export default class IndecisionApp extends React.Component {
   state = {
     title: "Indecision",
     subtitle: "Make Your Life Simpler",
     options: [],
+    selectedOption: undefined,
+  };
+  handleClearSelectedOption = () => {
+    this.setState(() => ({ selectedOption: undefined }));
   };
 
   handleRemoveAll = () => {
@@ -28,8 +33,10 @@ export default class IndecisionApp extends React.Component {
 
   handlePick = () => {
     const randomIndex = Math.floor(Math.random() * this.state.options.length);
-    alert(this.state.options[randomIndex]);
+    const option = this.state.options[randomIndex];
+    this.setState(() => ({ selectedOption: option }));
   };
+
   handleAddOption = (option) => {
     if (!option) {
       return "Please enter a valid input";
@@ -79,7 +86,10 @@ export default class IndecisionApp extends React.Component {
           options={this.state.options}
         />
         <AddOptions handleAddOption={this.handleAddOption} />
-        <OptionModal />
+        <OptionModal
+          selectedOption={this.state.selectedOption}
+          handleClearSelectedOption={this.handleClearSelectedOption}
+        />
       </div>
     );
   }

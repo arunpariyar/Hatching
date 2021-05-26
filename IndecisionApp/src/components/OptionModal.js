@@ -1,9 +1,15 @@
 import React from "react";
 import Modal from "react-modal";
 
-const OptionModal = () => (
-  <Modal isOpen={true}>
-    <h2>I am the model title</h2>
+const OptionModal = (props) => (
+  <Modal
+    isOpen={!!props.selectedOption}
+    onRequestClose={props.handleClearSelectedOption}
+    contentLabel="Selected Option"
+  >
+    <h3>Selected Option</h3>
+    {props.selectedOption && <p>{props.selectedOption}</p>}
+    <button onClick={props.handleClearSelectedOption}>Okay</button>
   </Modal>
 );
 
