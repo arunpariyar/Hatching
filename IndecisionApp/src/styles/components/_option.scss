@@ -1,0 +1,7 @@
+.option {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size $m-size;
+  border-bottom: 2px solid lighten($color: $dark-blue, $amount: 10%);
+}

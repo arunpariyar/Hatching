@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 80rem;
+  margin: 0 auto;
+}
+.brand {
+  color: $brand;
+}
+.statsCard {
+  color: white;
+  background-color: $purple;
+
+  padding: 4rem;
+}
+.statsCard--intro {
+  margin: 0;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.statsCard--photo {
+  background-color: $brand;
+  width: 50rem;
+}
+
+.statsCard--text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: $off-black;
+}
+
+.statsCard-stat {
+  display: flex;
+}

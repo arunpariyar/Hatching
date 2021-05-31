@@ -9,17 +9,21 @@ const Options = (props) => (
         Remove All
       </button>
     </div>
-
-    {props.options.length === 0 && (
-      <p>Please enter your to do's to get started</p>
-    )}
-    {props.options.map((option, index) => (
-      <Option
-        key={index}
-        optionText={option}
-        handleRemoveOption={props.handleRemoveOption}
-      />
-    ))}
+    <div>
+      {props.options.length === 0 && (
+        <p className="widget-header--message">
+          Please enter your to do's to get started
+        </p>
+      )}
+      {props.options.map((option, index) => (
+        <Option
+          key={index}
+          optionText={option}
+          handleRemoveOption={props.handleRemoveOption}
+          index={index + 1}
+        />
+      ))}
+    </div>
   </div>
 );
 

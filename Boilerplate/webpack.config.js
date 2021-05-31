@@ -14,6 +14,14 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
       },
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
     ],
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "public"),
+    port: 8848,
   },
 };
