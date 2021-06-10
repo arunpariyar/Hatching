@@ -1,0 +1,31 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80rem;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.cardContainer__sedans {
+  background-color: #e08632;
+  padding: 4rem;
+}
+
+.cardContainer__suvs {
+  background-color: #0c6970;
+  padding: 4rem;
+}
+
+.cardContainer__luxury {
+  background-color: #053f3e;
+  padding: 4rem;
+}
