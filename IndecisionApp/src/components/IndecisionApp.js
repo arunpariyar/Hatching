@@ -22,6 +22,7 @@ export default class IndecisionApp extends React.Component {
   handleRemoveAll = () => {
     this.setState(() => ({ options: [] }));
   };
+
   handleRemoveOption = (optionToRemove) => {
     this.setState((prevState) => {
       return {
